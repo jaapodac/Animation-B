@@ -1,0 +1,13 @@
+I really need to keep updating these READMEs as I continue to experiment
+in JavaScript. Oh Well. 
+
+This experiment is in making Animation with various parameters that go beyond just using setInterval and setTimeout
+
+Also, we go beyond the square and use different non-parallelogram shapes.
+Special Thanks to:
+http://jtauber.github.io/articles/css-hexagon.html
+and
+http://javascript.info/tutorial/animation#the-basics-of-the-animation
+
+--John Apodaca
+April 20, 2014

@@ -1,0 +1,48 @@
+/* For Animation B */    
+*{margin:0;padding:0;}body{background:#222;} 
+
+
+.hex:before {
+    content: " ";
+    width: 0; height: 0;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    position: absolute;
+    top: -30px;
+}
+
+.hex {
+    margin-top: 30px;
+    width: 104px;
+    height: 60px;
+    background-color: blue;
+   /* background-color: #6C6;*/
+    position: relative;
+}
+
+.hex:after {
+    content: "";
+    width: 0;
+    position: absolute;
+    bottom: -30px;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}   
+
+    .hex-row {
+        clear: left;
+    }
+    
+      .hex-row.even {
+        margin-left: 53px;
+    }
+    .board {
+        -webkit-transform: perspective(600px) rotateX(60deg);
+        -moz-transform: perspective(600px) rotateX(60deg);
+        -ms-transform: perspective(600px) rotateX(60deg);
+        -o-transform: perspective(600px) rotateX(60deg);
+        transform: perspective(600px) rotateX(60deg);
+    }    
+    
